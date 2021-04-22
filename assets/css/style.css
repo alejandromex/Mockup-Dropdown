@@ -74,6 +74,7 @@ html{
     background-color: rgba(3, 2, 87, 0.384);
     color: #fefefe;
     text-align: center;
+    box-shadow: 0px 0px 8px #222;
 }
 
 .prueba p {
@@ -106,4 +107,43 @@ html{
     background-color: transparent;
     color:rgb(247, 55, 55);
     border: 3px solid rgb(247, 55, 55);
+}
+
+
+.services h2{
+    text-align: center;
+    background-color: #f4ac1c;
+    color: #fefdfb;
+    padding:17px;
+}
+
+.list-services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: #fefefe;
+}
+
+.s1{
+    background-image: url(../img/office1.png);
+    text-align: center;
+    position: relative;
+}
+
+.s2{
+    background-image: url(../img/office2.png);
+}
+.s3{
+    background-image: url(../img/office3.jpg);
+}
+
+.service{
+    height: 343.5px;
+    background-color: rgba(126, 111, 255, 0.295);
+    bottom: 0px;
+}
+
+.service2{
+    height: 343.5px;
+    background-color: #527bb9b2;
+
 }
