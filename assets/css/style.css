@@ -41,7 +41,6 @@ html{
     padding-right: 35px;
     transition: 300ms ease all;
     font-size: 20px;
-    cursor: pointer;
 
     
 }
@@ -125,15 +124,21 @@ html{
 
 .s1{
     background-image: url(../img/office1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     position: relative;
 }
 
 .s2{
     background-image: url(../img/office2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .s3{
     background-image: url(../img/office3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .service{
@@ -182,6 +187,7 @@ html{
     position: absolute;
     bottom: 80px;
     text-align: end;
+    padding: 20px;
     font-size: 20px;
 }
 
