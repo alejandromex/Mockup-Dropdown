@@ -1,6 +1,9 @@
 
 .dropdown {
     display: inline-block;
+    transition: 300ms ease all;
+
+
   }
 
   .dropdown-content {

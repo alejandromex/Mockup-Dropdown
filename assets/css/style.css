@@ -138,12 +138,50 @@ html{
 
 .service{
     height: 343.5px;
-    background-color: rgba(126, 111, 255, 0.295);
-    bottom: 0px;
+    background-color: rgba(79, 59, 255, 0.432);
 }
 
 .service2{
     height: 343.5px;
     background-color: #527bb9b2;
+}
+
+.s1 .service{
+    position: relative;
+}
+
+.s1 .service p{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    font-size: 30px;
 
 }
+
+.service2{
+    text-align: center;
+}
+
+.service2 h4{
+    padding-top: 50px;
+}
+
+.service2 p {
+    margin-top: 50px;
+    text-align: justify;
+    max-width: 70%;
+    padding-left:20px;
+    font-size: 20px;
+}
+
+.s3 .service{
+    position: relative;
+}
+
+.s3 .service p{
+    position: absolute;
+    bottom: 80px;
+    text-align: end;
+    font-size: 20px;
+}
+
